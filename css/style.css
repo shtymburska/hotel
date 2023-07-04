@@ -1,0 +1,316 @@
+body{
+font-family: 'Roboto', sans-serif;
+width: 1366px;
+/* display: block; */
+margin: 0 auto;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 75px;
+    line-height: 70px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #F0F0F0;
+    line-height: 23px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+h4{
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #0F4C92;
+}
+
+header{
+    background-image: url('../images/background-header.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 35px 0 175px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 75px;
+    color: #F0F0F0;
+    line-height: 70px;
+}
+
+.logotype{
+    display: block;
+    margin: 0 auto;
+    width: 260px;
+    margin-bottom: 225px;
+}
+
+.btn{
+    background: #FF9728;
+    border: none;
+    padding: 16px 40px;
+    color: #ffffff;
+    font-size: 21px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contentainer__info{
+    padding: 120px 311px;
+    background-color: #def0ff;
+    color: #0F4C92;
+    width: 745px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contentainer__info_2{
+    padding: 120px 312px 140.5px 305px;
+    background-color: #def0ff;
+    color: #0F4C92;
+    width: 745px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* ADVANTAGE INFO START */
+
+.advantages{
+    padding: 85px 0 100px;
+    background-color: #f2f9ff;
+}
+
+.advantages__blocks{
+    /* border: 5px solid green; */
+    width: 1195px;
+    margin: 0 auto;
+}
+
+.advantage__block{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.advantage__block:nth-child(2) img{
+    order: 1;
+}
+
+.advantage__block:nth-child(2) .advantage__description{
+    padding-left: 0;
+    padding-right: 72px;
+}
+
+.advantage__block img{
+    width: 585px;
+    height: 580px;
+}
+.advantage__description{
+    /* border: 2px solid red; */
+    padding-left: 80px;
+    padding-top: 65px;
+}
+.date{
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 20px;
+}
+
+.date span{
+    font-weight: bold;
+}
+.advantage__description p{
+    font-size: 18px;
+    color: #1b1b1b;
+    margin-top: 40px;
+}
+
+.more__info{
+    font-size: 21px;
+    line-height: 25.5px;
+    color: #ffffff;
+    background-color: #0d599c;
+    border: none;
+    padding: 15px 70px;
+    border-radius:45px;
+    margin-top: 40px;
+}
+/* ADVANTAGES END */
+
+/* FORM START */
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.callback-form{
+    background: linear-gradient(327.75deg, #0080BF 9.35%, #00496C 117.99%);
+    border-radius: 50px;
+    padding: 100px 80px 50px;
+    width: 785px;
+    height: 348px;
+    left: 288px;
+}
+.callback-form h2{
+    color: #f9f9f9;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.callback-form input{
+    width: 350px;
+    border: 1px solid #f7f6f6;
+    background-color: transparent;
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 21px;
+    box-sizing: border-box;
+}
+
+.callback-form input:first-child{
+    margin-right: 15px;
+}
+
+.callback-form input::placeholder{
+    font-size: 18px;
+    color: #b2e3ff;
+}
+
+.callback-form .callback-form__btn{
+    background: #FF9728;
+    border: none;
+    padding: 16px 40px;
+    color: #ffffff;
+    font-size: 21px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 190px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* FORM END */
+
+/* INFO-3 START */
+
+.contentainer__info_3{
+    background-color: #B5E4FF;
+    color: #F4F4F4;
+    width: 785px;
+    padding: 97px 290px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form__info_3{
+    background: #2B477C;
+    border-radius:19px;
+    padding: 61px 30px 60px;
+}
+
+.form__info_3 h2{
+    color: #f4f4f4;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.form__info_3 p{
+    font-size: 18px;
+    color: #f4f4f4;
+    line-height: 21px;
+}
+
+.btn{
+    background: #FF9728;
+    border: none;
+    padding: 16px 40px;
+    color: #ffffff;
+    font-size: 21px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 260px;
+    display: block;
+    margin: 0 auto;
+}
+/* INFO-3 END */
+
+/* MAP START */
+
+.map__section h2{
+    color: #0f4c92;
+    text-align: center;
+    margin: 75px 0;
+}
+.map{
+    width: 100%;
+    height: 355px;
+    border: 5px solid red;
+}
+
+/* MAP END */
+
+/* FUTER START*/
+
+.logotype-2{
+    margin-bottom: 5px;
+}
+
+.futer__info{
+    padding:50px 0 115px;
+    background-color: #0B83BE;
+    color: #FFFFFF;
+    text-align: center; 
+}
+
+.futer__info p{
+    margin-bottom: 100px;
+}
+
+.futer__info_text{
+    width: 705px;
+    margin: 0 auto;
+}
+
+/* FUTER END*/
+
+
+
+/* 
+Завершіть створення сайту реалізувавши футер/нижню частину сайту. 
+
+Додайте логотип розмістивши його по центру
+
+Задайте внутрішні відступи(padding) секції в — вгорі 50px та 115px знизу;
+
+Колір загального фону секції — #0B83BE;
+
+Колір тексту заголовку та опису — #FFFFFF;
+
+Ширина блоку для тексту — 705px;
+
+Щоб розмістити блок по центру додайте запис — margin: 0 auto;
+
+Завдання 3
+
+Реалізуйте основну частину сайту повторюючи за матеріалами заняття. */
